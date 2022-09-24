@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@dropb/expand": "^1.0.0",
-    "@dropb/ffmpeg-progress": "^1.0.2",
+    "@dropb/ffmpeg-progress": "^2.0.0",
     "@dropb/ffprobe": "^2.0.1",
     "spawn-args": "^0.2.0"
   },
