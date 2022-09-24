@@ -1,0 +1,31 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./lib",
+    "baseUrl": "src",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "stripInternal": true,
+    "keyofStringsOnly": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "declarationDir": "./lib/types",
+    "allowJs": true
+  },
+  "include": ["src/**/*", "test/**/*", "examples/**/*", "*.js"],
+  "exclude": ["node_modules"]
+}
